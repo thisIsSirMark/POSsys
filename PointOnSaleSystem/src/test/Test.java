@@ -14,6 +14,8 @@ public class Test {
 
 	public static void main(String[] args) {
 
+		System.exit(0);
+		;
 		List<Product> prodList = new ArrayList<>(List.of(new Product("Pastil", 10.0, 100),
 				new Product("Asukal", 5.0, 100), new Product("Kwek-kwek", 3.0, 50)));
 
